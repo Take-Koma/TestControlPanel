@@ -16,5 +16,9 @@
 		<Plc>
 			<Project File="CX9240.xti"/>
 		</Plc>
+		<Io>
+			<Device File="デバイス 1 (CCAT EIP Adapter(Slave)).xti" Id="1"/>
+			<Device File="デバイス 3 (EtherCAT).xti" Id="3"/>
+		</Io>
 	</Project>
 </TcSmProject>

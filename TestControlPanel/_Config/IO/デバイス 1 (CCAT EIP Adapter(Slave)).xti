@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4026.20" ClassName="CDevEthernetProtocolEipSlaveDef" SubType="154">
+	<Device Id="1" DevType="154" AmsPort="28673" AmsNetId="192.168.15.13.3.1" RemoteName="デバイス 1 (CCAT EIP Adapter(Slave))">
+		<Name>__FILENAME__</Name>
+		<AddressInfo>
+			<Ccat>
+				<Address>-1610612736</Address>
+				<Offset>65536</Offset>
+				<Size>8192</Size>
+				<BaseAddr>0</BaseAddr>
+				<BusNo>65535</BusNo>
+				<SlotNo>0</SlotNo>
+				<Dma>
+					<Address>0</Address>
+					<Offset>4096</Offset>
+					<Size>256</Size>
+					<BaseAddr>2</BaseAddr>
+					<RxChn>2</RxChn>
+					<TxChn>3</TxChn>
+				</Dma>
+				<SwitchSize>16384</SwitchSize>
+				<SwitchOffs>196608</SwitchOffs>
+				<TimeSize>128</TimeSize>
+				<TimeOffs>1024</TimeOffs>
+				<GpioSize>32</GpioSize>
+				<GpioOffs>768</GpioOffs>
+				<EepromSize>128</EepromSize>
+				<EepromOffs>512</EepromOffs>
+				<IntCtrlSize>16</IntCtrlSize>
+				<IntCtrlOffs>640</IntCtrlOffs>
+				<PortCount>2</PortCount>
+				<PortSwitched>true</PortSwitched>
+			</Ccat>
+		</AddressInfo>
+		<Image Id="1" AddrType="1" ImageType="3">
+			<Name>イメージ</Name>
+		</Image>
+		<Box File="Box 1 (TC EtherNet%_2FIP Slave).xti" Id="1"/>
+		<Ethernet/>
+		<EtherNetIPSlaveDev>
+			<Ethernet PortCount="2" PortSwitched="true"/>
+		</EtherNetIPSlaveDev>
+	</Device>
+</TcSmItem>
