@@ -36,7 +36,7 @@
 			<Name>イメージ</Name>
 		</Image>
 		<Box File="Box 1 (TC EtherNet%_2FIP Slave).xti" Id="1"/>
-		<Ethernet/>
+		<Ethernet SpecialTask="true" TaskPort="301"/>
 		<EtherNetIPSlaveDev>
 			<Ethernet PortCount="2" PortSwitched="true"/>
 		</EtherNetIPSlaveDev>
