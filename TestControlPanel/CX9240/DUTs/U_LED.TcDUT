@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <DUT Name="U_LED" Id="{141e173f-e1e9-4e4d-917e-f6108e1c60d5}">
+    <Declaration><![CDATA[TYPE U_LED :
+UNION
+	uiUINT		:UINT;
+	stLED		:ST_LED;
+	
+END_UNION
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>
