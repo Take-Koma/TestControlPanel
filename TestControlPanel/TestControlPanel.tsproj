@@ -34,4 +34,7 @@
 			<Device File="デバイス 3 (EtherCAT).xti" Id="3"/>
 		</Io>
 	</Project>
+	<Mappings>
+		<MappingInfo Identifier="{00000000-0010-0304-3000-040310000403}" Id="#x02030010"/>
+	</Mappings>
 </TcSmProject>
