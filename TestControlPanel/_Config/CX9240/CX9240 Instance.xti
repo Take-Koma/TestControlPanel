@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4026.20" ClassName="CTComPlcObjDef">
-	<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" XtvPath="CX9240\CX9240 Instance.xtv">
+	<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" XtvPath="CX9240\CX9240 Instance.xtv" TmcPath="CX9240\CX9240.tmc">
 		<Name>__FILENAME__</Name>
 		<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 		<Contexts>
@@ -18,4 +18,12 @@
 			<TaskPouOid Prio="20" OTCID="#x08502001"/>
 		</TaskPouOids>
 	</Instance>
+	<Mappings>
+		<OwnerA>
+			<OwnerB Name="TIID^Device 1 (CCAT EIP Adapter(Slave))^Box 1 (TC EtherNet/IP Slave)">
+				<Link VarA="PlcTask Inputs^GVL.uLED^uiUINT" VarB="Assembly 1 (Input/Output)^Inputs^uiUINT"/>
+				<Link VarA="PlcTask Outputs^GVL.uSwitch^uiUINT" VarB="Assembly 1 (Input/Output)^Outputs^uiUINT"/>
+			</OwnerB>
+		</OwnerA>
+	</Mappings>
 </TcSmItem>

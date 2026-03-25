@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <DUT Name="U_Switch" Id="{6400eb2d-4ad3-47ed-8d30-e9edeb6f4395}">
+    <Declaration><![CDATA[TYPE U_Switch :
+UNION
+	uiUINT		:UINT;
+	stSwitch	:ST_Switch;
+	
+END_UNION
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

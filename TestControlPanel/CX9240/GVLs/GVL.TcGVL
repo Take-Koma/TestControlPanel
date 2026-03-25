@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <GVL Name="GVL" Id="{5676a1e9-6d6f-4aab-8dea-3c15dc2db141}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	
+///---Modbus TCP---
+    mb_Input_Coils					:ARRAY [0..255] OF BOOL;
+    mb_Output_Coils					:ARRAY [0..255] OF BOOL;
+    mb_Input_Registers				:ARRAY [0..255] OF WORD;
+    mb_Output_Registers				:ARRAY [0..255] OF WORD;
+
+//---EtherNet/IP---
+	uLED					AT %I*	:U_LED;
+	uSwitch					AT %Q*	:U_Switch;
+
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

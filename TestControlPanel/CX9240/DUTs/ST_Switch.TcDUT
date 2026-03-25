@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <DUT Name="ST_Switch" Id="{201d54a7-de96-4043-ad13-56fa4d337081}">
+    <Declaration><![CDATA[TYPE ST_Switch :
+STRUCT
+	bGreenSwitch		:BIT;
+	bYellowSwitch		:BIT;
+	bRedSwitch			:BIT;
+	bWhiteSwitch		:BIT;
+	bBlueSwitch			:BIT;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>
