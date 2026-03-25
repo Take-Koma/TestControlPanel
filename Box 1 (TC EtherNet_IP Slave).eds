@@ -4,14 +4,14 @@ $ TwinCAT Engineering: v3.1.4026.20
 $ TwinCAT Project Name: TestControlPanel
 $ TwinCAT Project Location: C:\Users\takes\OneDrive\ドキュメント\source\repos\TestControlPanel\TestControlPanel\
 $ Created by: \\DESKTOP-6TDUQ82\takes
-$ Created on: 2026-03-15 at 19:28:17
+$ Created on: 2026-03-25 at 21:36:26
 
 [File]
     DescText    = "TCEDS for Box 1 (TC EtherNet/IP Slave) on デバイス 1 (CCAT EIP Adapter(Slave))";
-    CreateDate	= 03-15-2026;
-    CreateTime	= 19:28:17;
-    ModDate	= 03-15-2026;
-    ModTime	= 19:28:17;
+    CreateDate	= 03-25-2026;
+    CreateTime	= 21:36:26;
+    ModDate	= 03-25-2026;
+    ModTime	= 21:36:26;
     Revision	= 1.7;
     HomeURL	= "http://www.beckhoff.com";
 
@@ -29,8 +29,8 @@ $ Created on: 2026-03-15 at 19:28:17
     Class1 = EtherNetIP;
 
 [Params]
-    Param1 = 0,,,0x0800,0xC8,4,"Assembly 1: Output CycleTime/RPI (O->T)","","Assembly 1",1000,3200000,10000,,,,,,,,,;
-    Param2 = 0,,,0x0800,0xC8,4,"Assembly 1: Input CycleTime/RPI (T->O)","","Assembly 1",1000,3200000,10000,,,,,,,,,;
+    Param1 = 0,,,0x0800,0xC8,4,"Assembly 1: Output CycleTime/RPI (O->T)","","Assembly 1",10000,3200000,40000,,,,,,,,,;
+    Param2 = 0,,,0x0800,0xC8,4,"Assembly 1: Input CycleTime/RPI (T->O)","","Assembly 1",10000,3200000,40000,,,,,,,,,;
     Param3 = 0,,,0x0800,0xC7,2,"Assembly 1: Output Size (O->T)","","Assembly 1",4,502,6,,,,,,,,,;
     Param4 = 0,,,0x0800,0xC7,2,"Assembly 1: Input Size (T->O)","","Assembly 1",4,502,6,,,,,,,,,;
     Param5 = 0,,,0x0A00,0xC8,4,"Assembly 1 ^ 出力 ^ ConnCtrl","","Assembly 1 ^ 出力 ^ ConnCtrl",,,0,,,,,,,,,;

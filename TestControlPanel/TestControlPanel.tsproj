@@ -5,7 +5,7 @@
 			<Settings MaxCpus="4" NonWinCpus="2">
 				<Cpu CpuId="2"/>
 				<Cpu CpuId="3"/>
-				<IoIdleTask Affinity="#x00000004"/>
+				<IoIdleTask Priority="1" Affinity="#x00000004"/>
 			</Settings>
 			<Licenses>
 				<Target>
@@ -16,7 +16,7 @@
 				<Task Id="3" Priority="20" CycleTime="100000" AmsPort="350" Affinity="#x00000004" AdtTasks="true">
 					<Name>PlcTask</Name>
 				</Task>
-				<Task Id="4" Priority="1" CycleTime="10000" AmsPort="301" Affinity="#x00000004">
+				<Task Id="4" Priority="2" CycleTime="10000" AmsPort="301" Affinity="#x00000004">
 					<Name>Ethernet/IP Task</Name>
 					<Vars VarGrpType="1" InsertType="1">
 						<Name>入力</Name>

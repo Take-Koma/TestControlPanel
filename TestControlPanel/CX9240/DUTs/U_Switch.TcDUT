@@ -4,7 +4,7 @@
     <Declaration><![CDATA[TYPE U_Switch :
 UNION
 	uiUINT		:UINT;
-	stLED		:ST_Switch;
+	stSwitch	:ST_Switch;
 	
 END_UNION
 END_TYPE
