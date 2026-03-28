@@ -592,7 +592,7 @@
 							<Child>
 								<value.first>EtherNet/IP   R30000  DM10000</value.first>
 								<value.second>
-									<Expanded>1</Expanded>
+									<Expanded>0</Expanded>
 									<Child>
 										<value.first>[1]  Box 1 (TC EtherNet/IP Slave)</value.first>
 										<value.second>
